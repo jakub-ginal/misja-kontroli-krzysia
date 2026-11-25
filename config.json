@@ -1,0 +1,10 @@
+{
+  "refresh_interval_ms": 1500,
+  "params": [
+    {"key": "oxygen", "label": "Tlen", "unit": "%", "widget": "chart", "min": 85, "max": 100},
+    {"key": "temperature", "label": "Temperatura", "unit": "°C", "widget": "gauge", "min": 34, "max": 42},
+    {"key": "heart_rate", "label": "Tętno", "unit": "bpm", "widget": "chart", "min": 50, "max": 140},
+    {"key": "energy", "label": "Energia", "unit": "%", "widget": "gauge", "min": 0, "max": 100},
+    {"key": "mood", "label": "Nastrój", "unit": "", "widget": "value"}
+  ]
+}

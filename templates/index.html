@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Misja: Krzyś</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Centrum monitoringu Krzysia</h1>
+    <span id="status" class="status">łączenie...</span>
+  </header>
+
+  <main>
+    <section id="widgets" class="grid"></section>
+
+    <section class="messages">
+      <h2>Wiadomości do Krzysia</h2>
+      <form id="message-form">
+        <input id="message-input" type="text" placeholder="Napisz coś do Krzysia..." maxlength="1000" autocomplete="off">
+        <button type="submit">Wyślij</button>
+      </form>
+      <ul id="message-list"></ul>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='chart.umd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

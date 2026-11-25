@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+history_data.jsonl
+history_messages.jsonl
+history.db*
