@@ -3,7 +3,7 @@
 Aplikacja webowa (frontend + backend) do monitorowania funkcji życiowych Krzysia
 i wysyłania mu wiadomości.
 
-<img width="800" height="600" alt="dashboard" src="https://github.com/user-attachments/assets/7b7befba-3492-4eba-95ac-f9de51b7a51d" />
+<img width="800" height="600" alt="dashboard" src="https://github.com/user-attachments/assets/be1c66f3-e424-4607-9e98-02968c9dd1cd" />
 
 ## Uruchomienie
 
